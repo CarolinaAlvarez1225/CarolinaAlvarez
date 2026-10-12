@@ -1,12 +1,12 @@
 document.write("<h2>¡Contenido agregado por JavaScript!</h2>"); 
-let nombre = "Ana";
-var edad = 32;
-const nombreSinCambio = "Daniel"
 
-let entero = 10;
-let decimal = 3.14;
-let suma = entero + decimal;
-console.log(suma);
+let imagenPagina =
+document.getElementById("imagenPato");
+
+imagenPato.addEventListener("click", function()
+{
+    console.log("You clicked the duckie, it floofed up!");
+})
 
 botonInicio = document.getElementById('boton');
 
